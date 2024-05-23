@@ -34,6 +34,9 @@ export default function Joke() {
     setId(data.nextId);
   }
 
+  // initialize the local state with an empty array (to store the state of the buttons)
+  const [jokesInfo, setJokesInfo] = useState([]);
+
   if (!data) {
     return <h1>Loading...</h1>;
   }

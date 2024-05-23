@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" href="./public/favicon.ico" type="image/x-icon" />
+		<title>Unit Responsive</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<ul>
+			<li>Item A</li>
+			<li>Item B</li>
+			<li>
+				Item C
+				<ul>
+					<li>Item 1</li>
+					<li>Item 2</li>
+					<li>Item 3</li>
+				</ul>
+			</li>
+			<li>Item D</li>
+			<li>Item E</li>
+		</ul>
+
+		<div class="square-big">
+			<div class="square-small"></div>
+		</div>
+
+		<picture>
+			<source
+				media="(min-width: 1200px)"
+				srcset="./public/mickey&Friends.jpeg"
+			/>
+			<source media="(min-width: 800px)" srcset="./public/laSirenita.jpeg" />
+			<img src="./public/dog-3.png" alt="Dog" />
+		</picture>
+	</body>
+</html>
